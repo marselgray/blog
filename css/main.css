@@ -267,7 +267,47 @@ textarea {
 		float: right;
 	}
    
+	#comments{
+		margin: 20px 0 0 0;
+	}
+
+	.comment-left{
+		float: left;
+		width: 8%;
+	}
+
+	.comment-left img{
+		width: 100%;
+	}
+
+	.comment-right{
+		float: right;
+		width: 90%;
+	}
+
+	.comment-form{
+		margin: 20px 0 0 0;
+		padding: 5px 20px 10px 20px;
+		background-color: #333;
+		color: #fff;
+		border-radius: 10px;
+	}
+
+	.comment-form input[type="text"], .comment-form input[type="email"]{
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		height: 20px;
+		padding: 3px;
+		width: 97%;
+	}
    
+	.comment-form input[type="textarea"]{
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		padding: 3px;
+		height: 40px;
+		width: 97%;
+	}
 
 /* ==========================================================================
    Media Queries
