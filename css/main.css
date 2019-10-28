@@ -309,6 +309,30 @@ textarea {
 		width: 97%;
 	}
 
+	.add-form input[type="text"]{
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		height: 20px;
+		padding: 3px;
+		width: 97%;
+	}
+
+	.add-form select{
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		height: 30px;
+		padding: 3px;
+		width: 98%;
+	}
+
+	.add-form textarea{
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		padding: 3px;
+		height: 40px;
+		width: 97%;
+	}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
